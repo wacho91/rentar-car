@@ -126,3 +126,30 @@ font-size: 1.5rem;
 .nav_links a:hover {
     color: var(--text-light);
 }
+
+header {
+    display: grid;
+    padding-top: 8rem;
+    overflow: hidden;
+}
+
+.header__image {
+    background-image: url("assets/header-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 50px 50px var(--white) inset;
+}
+
+.header__content  {
+    padding-block: 2rem 5rem;
+}
+
+.header__content h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    text-align: center;
+    line-height: 4rem;
+}
