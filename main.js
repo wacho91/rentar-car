@@ -86,3 +86,17 @@ ScrollReveal().reveal(".feature__card", {
     ...scrollRevealOption,
     interval: 500,
 });
+
+ScrollReveal().reveal(".banner__container .section__header", {
+    ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".banner__container .section__description", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".banner__btn", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
