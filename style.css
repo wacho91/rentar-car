@@ -319,3 +319,32 @@ header {
     font-weight: 600;
     color: var(--text-dark);
 }
+
+.banner__container {
+    background-color: var(--text-dark);
+    border-radius: 1.5rem;
+}
+
+.banner__container .section__header {
+    max-width: 700px;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.banner__container .section__description {
+    max-width: 500px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+    color: var(--white);
+}
+
+.banner__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.banner__btn .btn {
+    color: var(--text-dark);
+    background-color: var(--white);
+}
